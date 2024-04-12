@@ -12,7 +12,7 @@ function App() {
         <Route exact path="/" element={<Hero />} />
         <Route exact path="/about" element={<About />} />
       </Route>
-        <Route exact path="/qr" element={<QR />} />
+      <Route exact path="/qr" element={<QR />} />
     </Routes>
   );
 }
